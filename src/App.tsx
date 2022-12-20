@@ -1,5 +1,12 @@
+import { HomePage } from './pages/HomePage';
+import './styles/index.scss';
+
 function App() {
-  return <div>Hello World</div>;
+  return (
+    <div>
+      <HomePage />
+    </div>
+  );
 }
 
 export default App;
